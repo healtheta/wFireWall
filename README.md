@@ -29,4 +29,4 @@ The POC does the following tasks
 - Load/Test the pipeline for deployment
 
 ## Do you find it Interesting ?
-Leave your comments somewhere.
+Comments below..
