@@ -1,11 +1,11 @@
 # Introduction
-So, I had this discussion with a former Collegue of mine, He was interested in using Machine learning and Artificial Intelligence to build a add-on to his existing SMSC platform. The add-on is supposed to work as a SMS firewall which could dynamically enforce rules and policies on SMSC to facilitate various purposes. 
+So, I had this discussion with a former collegue of mine, He was interested in using Machine learning and Artificial Intelligence to build a add-on to his existing SMSC platform. The add-on is supposed to work as a SMS firewall which could dynamically enforce rules and policies on SMSC to facilitate various purposes. 
 
 ## Features
 Typically an SMS firewall shall have following properties in-built within it's scope to enable and serve it's purpose. Those are 
 - **Spamming-Resistance** : A system which could block unsolicited SMS messages to a subscriber
 - **Flooding-Resistance** : The system should be able to block large amount of messages to various destinations 
-- **Spoofing-Resistance**:  Stop using the SMS client to send manupilated messages. 
+- **Spoofing-Resistance**:  System should be able to block using the SMS client to send manupilated messages. 
 
 I agree, apart from above there are many other features that a typical SMSC firewall could support. but as of now Let's stop here and focus on the main focus of this module; 
 
