@@ -90,7 +90,7 @@ def train_and_test(data, printme = False):
 	#prepare x, y dataset
 	x = pre_process_clean(data.v2)
 	y = pre_prep_labels(data.v1)
-	x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25, random_state = 42)
+	x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.30, random_state = 40)
 	
 	count_vect = CountVectorizer()
 	count_vect_ngram = CountVectorizer(ngram_range = (2,3))
